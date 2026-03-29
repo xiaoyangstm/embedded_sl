@@ -1,0 +1,18 @@
+# Build directories
+build/
+build_*/
+
+# Zephyr generated files
+zephyr/
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
