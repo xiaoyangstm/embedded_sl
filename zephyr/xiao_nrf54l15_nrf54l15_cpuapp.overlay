@@ -1,0 +1,62 @@
+/ {
+    zephyr,user {
+        // 四路ADC配置 - nRF54L15的SAADC AIN引脚在P1端口
+        // D0/A0 (P1.04) -> AIN0 -> ADC通道0
+        // D1/A1 (P1.05) -> AIN1 -> ADC通道1
+        // D2/A2 (P1.06) -> AIN2 -> ADC通道2
+        // D3/A3 (P1.07) -> AIN3 -> ADC通道3
+        io-channels = <&adc 0>, <&adc 1>, <&adc 2>, <&adc 3>;
+    };
+};
+
+// 配置所有四个ADC通道，使用P1端口的引脚
+// 注意：nRF54L15的AIN0-AIN3对应P1.04-P1.07，而不是P0端口
+&adc {
+    // A0 - D0 (P1.04) - ADC通道0 - AIN0
+    channel@0 {
+        zephyr,input-positive = <NRF_SAADC_AIN0>;  // P1.04 on nRF54L15
+        status = "okay";
+    };
+
+    // A1 - D1 (P1.05) - ADC通道1 - AIN1
+    channel@1 {
+        zephyr,input-positive = <NRF_SAADC_AIN1>;  // P1.05 on nRF54L15
+        status = "okay";
+    };
+
+    // A2 - D2 (P1.06) - ADC通道2 - AIN2
+    channel@2 {
+        zephyr,input-positive = <NRF_SAADC_AIN2>;  // P1.06 on nRF54L15
+        status = "okay";
+    };
+
+    // A3 - D3 (P1.07) - ADC通道3 - AIN3
+    channel@3 {
+        zephyr,input-positive = <NRF_SAADC_AIN3>;  // P1.07 on nRF54L15
+        status = "okay";
+    };
+};
+
+// PWM disabled - conflicts with ADC on P1.04
+// &pwm20 {
+//     status = "okay";
+//     pinctrl-0 = <&pwm20_default>;
+//     pinctrl-1 = <&pwm20_sleep>;
+//     pinctrl-names = "default", "sleep";
+// };
+//
+// &pinctrl {
+//     pwm20_default: pwm20_default {
+//         group1 {
+//             // GPIO D0 = P1.4 on the XIAO nRF54L15
+//             psels = <NRF_PSEL(PWM_OUT0, 1, 4)>;
+//         };
+//     };
+//
+//     pwm20_sleep: pwm20_sleep {
+//         group1 {
+//             psels = <NRF_PSEL(PWM_OUT0, 1, 4)>;
+//             low-power-enable;
+//         };
+//     };
+// };
