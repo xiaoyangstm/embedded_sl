@@ -1,0 +1,18 @@
+/*
+ * Copyright (c) 2026
+ *
+ * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+ */
+
+/ {
+	chosen {
+		ncs,dtm-uart = &uart20;
+	};
+};
+
+&radio {
+	/* XIAO board configuration does not provide the antenna matrix
+	 * properties required by the DTM direction finding path.
+	 */
+	/delete-property/ dfe-supported;
+};

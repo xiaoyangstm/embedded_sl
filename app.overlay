@@ -1,10 +1,7 @@
 / {
 	chosen {
-		ncs,dtm-uart = &uart0;
+		ncs,dtm-uart = &uart20;
 	};
 };
 
-&uart0 {
-	status = "okay";
-	current-speed = <19200>;
-};
+/* uart20 is USB CDC, already configured in board dts with status = "okay" */

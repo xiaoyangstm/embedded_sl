@@ -1,0 +1,12 @@
+# Fix for xiao_nrf54l15 BT_CTLR Kconfig warning
+# The board's Kconfig.defconfig defines BT_CTLR without a type.
+# This file is loaded before the board's defconfig, so we can properly define it here.
+
+if BOARD_XIAO_NRF54L15_NRF54L15_CPUAPP
+
+# Properly define BT_CTLR with type before the board's defconfig loads
+config BT_CTLR
+	bool
+	default BT
+
+endif
