@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Zephyr build files
+build/
+zephyr/.config/
+zephyr/build.dir
+
+# Build artifacts
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

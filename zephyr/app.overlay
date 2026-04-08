@@ -1,0 +1,27 @@
+/ {
+    // Use uart20 as console (connected to USB-Serial chip)
+    chosen {
+        zephyr,console = &uart20;
+        zephyr,shell-uart = &uart20;
+    };
+};
+
+/* Configure UART20 for USB serial (console) */
+&uart20 {
+    status = "okay";
+    current-speed = <115200>;
+    pinctrl-0 = <&uart20_default>;
+    pinctrl-1 = <&uart20_sleep>;
+    pinctrl-names = "default", "sleep";
+};
+
+/* Configure UART21 for hardware serial on D6/D7 pins
+ * D6 (TX) = P2.08, D7 (RX) = P2.07
+ */
+&uart21 {
+    status = "okay";
+    current-speed = <115200>;
+    pinctrl-0 = <&uart21_default>;
+    pinctrl-1 = <&uart21_sleep>;
+    pinctrl-names = "default", "sleep";
+};
