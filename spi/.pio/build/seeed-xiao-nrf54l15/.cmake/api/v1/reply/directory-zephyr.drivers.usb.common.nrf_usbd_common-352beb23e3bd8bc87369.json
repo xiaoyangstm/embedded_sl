@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/drivers/usb/common/nrf_usbd_common",
+		"source" : "C:/Users/33846/.platformio/packages/framework-zephyr/drivers/usb/common/nrf_usbd_common"
+	}
+}

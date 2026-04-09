@@ -1,0 +1,84 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "H:/nrf54l15/spi_speed/src",
+                "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated/zephyr",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/include",
+                "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic/nrf54l",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic/common",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis_6/CMSIS/Core/Include",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/modules/cmsis_6",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/drivers/include",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/mdk",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/modules/hal_nordic/nrfx",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "H:/nrf54l15/spi_speed/src",
+                    "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated/zephyr",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/include",
+                    "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic/nrf54l",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic/common",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis_6/CMSIS/Core/Include",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/modules/cmsis_6",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/drivers/include",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/mdk",
+                    "C:/Users/33846/.platformio/packages/framework-zephyr/modules/hal_nordic/nrfx",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "KERNEL",
+                "K_HEAP_MEM_POOL_SIZE=0",
+                "NRF54L15_XXAA",
+                "NRF_APPLICATION",
+                "NRF_CONFIG_CPU_FREQ_MHZ=128",
+                "__LINUX_ERRNO_EXTENSIONS__",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated/zephyr/autoconf.h",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/include/zephyr/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "C:/Users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m33",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "C:/Users/33846/.platformio/packages/framework-zephyr/lib/libc/common/include",
+                "-isystem",
+                "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/picolibc/include",
+                "-isystem",
+                "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "-isystem",
+                "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

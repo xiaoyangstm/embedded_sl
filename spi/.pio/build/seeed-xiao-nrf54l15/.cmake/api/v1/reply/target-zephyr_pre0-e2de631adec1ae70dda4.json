@@ -1,0 +1,942 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "zephyr/zephyr_pre0.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"include",
+			"include_boilerplate",
+			"find_package",
+			"target_link_libraries",
+			"toolchain_ld_link_elf",
+			"zephyr_library_link_libraries",
+			"target_link_libraries_ifdef",
+			"target_ld_options",
+			"zephyr_ld_options",
+			"zephyr_link_libraries",
+			"zephyr_link_libraries_ifdef",
+			"toolchain_ld_force_undefined_symbols",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"C:/Users/33846/.platformio/packages/framework-zephyr/CMakeLists.txt",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/linker/ld/gcc/linker_flags.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/linker/ld/linker_flags.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/target_toolchain_flags.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake",
+			"CMakeLists.txt",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/linker/ld/target.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/extensions.cmake",
+			"C:/Users/33846/.platformio/packages/framework-zephyr/arch/common/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1645,
+				"parent" : 0
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 5,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 92,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 66,
+				"parent" : 5
+			},
+			{
+				"file" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 140,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 153,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 57,
+				"parent" : 13
+			},
+			{
+				"file" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1646,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 120,
+				"parent" : 17
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 109,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 541,
+				"parent" : 20
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 439,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 164,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 2400,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 2037,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 442,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 26
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 450,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 2085,
+				"parent" : 28
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 29
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 452,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 96,
+				"parent" : 31
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 144,
+				"parent" : 32
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 96,
+				"parent" : 31
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 144,
+				"parent" : 34
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 460,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 36
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 38
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 1010,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 1663,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "H:/nrf54l15/spi/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated/zephyr/autoconf.h"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-printf-return-value"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mabi=aapcs"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mfp16-format=ieee"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "--sysroot=C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220/arm-none-eabi"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "C:/Users/33846/.platformio/packages/framework-zephyr/include/zephyr/toolchain/zephyr_stdint.h"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-format-zero-length"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-pointer-sign"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wexpansion-to-defined"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-unused-but-set-variable"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-pic"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-pie"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-asynchronous-unwind-tables"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-reorder-functions"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-defer-pop"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fmacro-prefix-map=H:/nrf54l15/spi/zephyr=CMAKE_SOURCE_DIR"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fmacro-prefix-map=C:/Users/33846/.platformio/packages/framework-zephyr=ZEPHYR_BASE"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-std=c99"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-nostdinc"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 18,
+					"define" : "KERNEL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "K_HEAP_MEM_POOL_SIZE=0"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "NRF54L15_XXAA"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "NRF_APPLICATION"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "NRF_CONFIG_CPU_FREQ_MHZ=128"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__LINUX_ERRNO_EXTENSIONS__"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__PROGRAM_START"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__ZEPHYR__=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "H:/nrf54l15/spi/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated/zephyr"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "H:/nrf54l15/spi/.pio/build/seeed-xiao-nrf54l15/zephyr/include/generated"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic/nrf54l/."
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/soc/nordic/common/."
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis_6/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/modules/cmsis_6/."
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/drivers/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/mdk"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/modules/hal_nordic/nrfx/."
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/lib/libc/common/include"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "H:/nrf54l15/spi/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/picolibc/include"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 18,
+			"id" : "soc__nordic::@52d9e3d1efbef9125aa2"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "kernel::@84e783bf488a9f887759"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "device_api_ld_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "offsets::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "zephyr::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "driver_validation_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "kobj_types_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "linker_zephyr_prebuilt_script_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "modules__hal_nordic__nrfx::@f7f3a5ded70f6119b353"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "app::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__cache::@dbc831f5e139423d79f0"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__clock_control::@03043f5596ae6e5fcffe"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__gpio::@f8009383a952b2e6d5b0"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__console::@39939278fdcee8c62e52"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__pinctrl::@762029cc579c68d25071"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__regulator::@c64aacd2d49dd5e65e03"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__spi::@6089661dbc642732d5e9"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__serial::@18e421c5ba74f72aaba5"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__timer::@d6d9b8697bc2d7d4441f"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_pio___bare_module::@9ac7d87ac3377325695e"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "isr_tables::@0b0b0cfd7a24e8ecfe11"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__common::@0b0b0cfd7a24e8ecfe11"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__arm__core__cortex_m::@5e05c4b15b4c2575dfc6"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__arm__core::@717147f9117c30afc083"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__arm__core__cortex_m__cmse::@2faa375c35000060242f"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__arm__core__mpu::@1cd2394d16df6e39b2cf"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "lib__libc__picolibc::@c5e8934bde5423fa7ac5"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "lib__libc__common::@4887e96c8898694998ea"
+		}
+	],
+	"id" : "zephyr_pre0::@d36e55b69c1b90fb26b2",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-gdwarf-4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\CMakeFiles\\offsets.dir\\.\\arch\\arm\\core\\offsets\\offsets.c.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-T",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\linker_zephyr_pre0.cmd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-Wl,-Map,H:/nrf54l15/spi/.pio/build/seeed-xiao-nrf54l15/zephyr/zephyr_pre0.map",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-Wl,--whole-archive",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "app\\libapp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\libzephyr.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\common\\libarch__common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\arch\\arm\\core\\libarch__arm__core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\arch\\arm\\core\\cortex_m\\libarch__arm__core__cortex_m.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\arch\\arm\\core\\cortex_m\\cmse\\libarch__arm__core__cortex_m__cmse.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\arch\\arm\\core\\mpu\\libarch__arm__core__mpu.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\lib\\libc\\picolibc\\liblib__libc__picolibc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\lib\\libc\\common\\liblib__libc__common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\soc\\soc\\nrf54l15\\libsoc__nordic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\cache\\libdrivers__cache.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\clock_control\\libdrivers__clock_control.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\console\\libdrivers__console.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\gpio\\libdrivers__gpio.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\pinctrl\\libdrivers__pinctrl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\regulator\\libdrivers__regulator.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\serial\\libdrivers__serial.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\spi\\libdrivers__spi.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\timer\\libdrivers__timer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "modules\\_bare_module\\lib_pio___bare_module.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "modules\\hal_nordic\\nrfx\\libmodules__hal_nordic__nrfx.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-Wl,--no-whole-archive",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\kernel\\libkernel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-LH:/nrf54l15/spi/.pio/build/seeed-xiao-nrf54l15/zephyr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "zephyr\\arch\\common\\libisr_tables.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-mcpu=cortex-m33",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-mthumb",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-mabi=aapcs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-mfp16-format=ieee",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-fuse-ld=bfd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "-Wl,--build-id=none",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-Wl,--sort-common=descending",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-Wl,--sort-section=alignment",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "-Wl,-u,_OffsetAbsSyms",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "-Wl,-u,_ConfigAbsSyms",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-nostdlib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-static",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-Wl,-X",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-Wl,-N",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "-Wl,--orphan-handling=warn",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "zephyr_pre0",
+	"nameOnDisk" : "zephyr_pre0.elf",
+	"paths" : 
+	{
+		"build" : "zephyr",
+		"source" : "C:/Users/33846/.platformio/packages/framework-zephyr"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/33846/.platformio/packages/framework-zephyr/misc/empty_file.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

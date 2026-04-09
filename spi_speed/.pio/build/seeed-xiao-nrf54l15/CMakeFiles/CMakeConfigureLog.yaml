@@ -1,0 +1,778 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      The target system is: Generic - 4.2.1 - arm
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/3.30.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/3.30.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (GNU MCU Eclipse ARM Embedded GCC, 64-bit) 8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+      Copyright (C) 2018 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/extensions.cmake:2336 (check_c_compiler_flag)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/extensions.cmake:1195 (check_compiler_flag)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/extensions.cmake:2375 (zephyr_check_compiler_flag)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/extensions.cmake:2351 (target_cc_option_fallback)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/CMakeLists.txt:597 (zephyr_cc_option)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-v9dd95"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-v9dd95"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_H__nrf54l15_spi_speed_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_33846__platformio_packages_toolchain_gccarmnoneeabi_1_80201_181220_bin____lib_gcc_arm_none_eabi_8_2_1_include___isystem__c__users_33846__platformio_packages_toolchain_gccarmnoneeabi_1_80201_181220_bin____lib_gcc_arm_none_eabi_8_2_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-v9dd95'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_2b141
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe -Dcheck_fmacro_prefix_map_H__nrf54l15_spi_speed_zephyr_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_33846__platformio_packages_toolchain_gccarmnoneeabi_1_80201_181220_bin____lib_gcc_arm_none_eabi_8_2_1_include___isystem__c__users_33846__platformio_packages_toolchain_gccarmnoneeabi_1_80201_181220_bin____lib_gcc_arm_none_eabi_8_2_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -nostartfiles -nostdlib -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include" -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=H:/nrf54l15/spi_speed/zephyr=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_2b141.dir/src.c.obj -c H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-v9dd95/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe -nostartfiles -nostdlib -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include" -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_2b141.dir/src.c.obj -o cmTC_2b141   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_missing_declarations"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_6d9e3
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -o CMakeFiles/cmTC_6d9e3.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_6d9e3.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_6d9e3.a  CMakeFiles/cmTC_6d9e3.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_6d9e3.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_unknown_attributes"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_8f980
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=unknown-attributes -o CMakeFiles/cmTC_8f980.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        FAILED: CMakeFiles/cmTC_8f980.dir/simple-main.c.obj 
+        C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=unknown-attributes -o CMakeFiles/cmTC_8f980.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        cc1.exe: error: -Werror=unknown-attributes: no option -Wunknown-attributes
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_attributes"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_c46ab
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=attributes -o CMakeFiles/cmTC_c46ab.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_c46ab.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_c46ab.a  CMakeFiles/cmTC_c46ab.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_c46ab.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_unsupported_floating_point_opt"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_058f6
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=unsupported-floating-point-opt -o CMakeFiles/cmTC_058f6.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        FAILED: CMakeFiles/cmTC_058f6.dir/simple-main.c.obj 
+        C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=unsupported-floating-point-opt -o CMakeFiles/cmTC_058f6.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        cc1.exe: error: -Werror=unsupported-floating-point-opt: no option -Wunsupported-floating-point-opt
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_ignored_optimization_argument"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_274d9
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=ignored-optimization-argument -o CMakeFiles/cmTC_274d9.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        FAILED: CMakeFiles/cmTC_274d9.dir/simple-main.c.obj 
+        C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=ignored-optimization-argument -o CMakeFiles/cmTC_274d9.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        cc1.exe: error: -Werror=ignored-optimization-argument: no option -Wignored-optimization-argument
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_attribute_optimize"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_d445e
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=attribute-optimize -o CMakeFiles/cmTC_d445e.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        FAILED: CMakeFiles/cmTC_d445e.dir/simple-main.c.obj 
+        C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=attribute-optimize -o CMakeFiles/cmTC_d445e.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        cc1.exe: error: -Werror=attribute-optimize: no option -Wattribute-optimize
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_implicit_function_declaration"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_ffc7a
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=implicit-function-declaration -o CMakeFiles/cmTC_ffc7a.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_ffc7a.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_ffc7a.a  CMakeFiles/cmTC_ffc7a.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_ffc7a.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:123 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:73 (include)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Wno_unused_command_line_argument"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_fa864
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Wno-unused-command-line-argument -o CMakeFiles/cmTC_fa864.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_fa864.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_fa864.a  CMakeFiles/cmTC_fa864.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_fa864.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:152 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:131 (picolibc_flag)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "__HAVE_BITFIELDS_IN_PACKED_STRUCTS"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_3fb89
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -o CMakeFiles/cmTC_3fb89.dir/have-bitfields-in-packed-structs.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/have-bitfields-in-packed-structs.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_3fb89.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_3fb89.a  CMakeFiles/cmTC_3fb89.dir/have-bitfields-in-packed-structs.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_3fb89.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:152 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:134 (picolibc_flag)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "__HAVE_CC_INHIBIT_LOOP_TO_LIBCALL"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_c1386
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -o CMakeFiles/cmTC_c1386.dir/have-cc-inhibit-loop-to-libcall.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/have-cc-inhibit-loop-to-libcall.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_c1386.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_c1386.a  CMakeFiles/cmTC_c1386.dir/have-cc-inhibit-loop-to-libcall.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_c1386.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:152 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:137 (picolibc_flag)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "__HAVE_COMPLEX"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_68991
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -o CMakeFiles/cmTC_68991.dir/have-complex.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/have-complex.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_68991.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_68991.a  CMakeFiles/cmTC_68991.dir/have-complex.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_68991.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/tool-cmake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:283 (CHECK_INCLUDE_FILE)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-ys539n"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-ys539n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_XTENSA_HAVE_CONFIG_CORE_ISA_H"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-ys539n'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_88c17
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -nostartfiles -nostdlib -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include" -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -o CMakeFiles/cmTC_88c17.dir/CheckIncludeFile.c.obj -c H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-ys539n/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_88c17.dir/CheckIncludeFile.c.obj 
+        C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -nostartfiles -nostdlib -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include" -isystem "c:/users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -o CMakeFiles/cmTC_88c17.dir/CheckIncludeFile.c.obj -c H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-ys539n/CheckIncludeFile.c
+        H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/CMakeFiles/CMakeScratch/TryCompile-ys539n/CheckIncludeFile.c:1:10: fatal error: xtensa/config/core-isa.h: No such file or directory
+         #include <xtensa/config/core-isa.h>
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_fno_common"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_e6b36
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -fno-common -o CMakeFiles/cmTC_e6b36.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_e6b36.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_e6b36.a  CMakeFiles/cmTC_e6b36.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_e6b36.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_fno_stack_protector"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_d744e
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -fno-stack-protector -o CMakeFiles/cmTC_d744e.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_d744e.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_d744e.a  CMakeFiles/cmTC_d744e.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_d744e.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_ffunction_sections"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_6855c
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -ffunction-sections -o CMakeFiles/cmTC_6855c.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_6855c.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_6855c.a  CMakeFiles/cmTC_6855c.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_6855c.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_fdata_sections"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_348e5
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -fdata-sections -o CMakeFiles/cmTC_348e5.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_348e5.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_348e5.a  CMakeFiles/cmTC_348e5.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_348e5.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Wall"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_68d70
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -Wall -o CMakeFiles/cmTC_68d70.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_68d70.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_68d70.a  CMakeFiles/cmTC_68d70.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_68d70.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_0631b
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -Wextra -o CMakeFiles/cmTC_0631b.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_0631b.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_0631b.a  CMakeFiles/cmTC_0631b.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_0631b.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_implicit_function_declaration"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_2a806
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -Werror=implicit-function-declaration -o CMakeFiles/cmTC_2a806.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_2a806.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_2a806.a  CMakeFiles/cmTC_2a806.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_2a806.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Werror_vla"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_e9c64
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -Werror=vla -o CMakeFiles/cmTC_e9c64.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_e9c64.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_e9c64.a  CMakeFiles/cmTC_e9c64.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_e9c64.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Warray_bounds"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_7aa8e
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -Warray-bounds -o CMakeFiles/cmTC_7aa8e.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_7aa8e.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_7aa8e.a  CMakeFiles/cmTC_7aa8e.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_7aa8e.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_Wold_style_definition"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_b5c40
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -Wold-style-definition -o CMakeFiles/cmTC_b5c40.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_b5c40.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_b5c40.a  CMakeFiles/cmTC_b5c40.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_b5c40.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_frounding_math"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_47722
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -frounding-math -o CMakeFiles/cmTC_47722.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_47722.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_47722.a  CMakeFiles/cmTC_47722.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_47722.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:110 (try_compile)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/picolibc.cmake:135 (_picolibc_supported_compile_options)"
+      - "C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/CMakeLists.txt:331 (picolibc_supported_compile_options)"
+    directories:
+      source: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+      binary: "H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/33846/.platformio/packages/framework-zephyr/cmake/modules"
+    buildResult:
+      variable: "_fsignaling_nans"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/nrf54l15/spi_speed/.pio/build/seeed-xiao-nrf54l15/modules/picolibc/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/33846/.platformio/packages/tool-ninja/ninja.exe -v cmTC_5d76d
+        [1/2] C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-gcc.exe   -Werror=missing-declarations -Werror=attributes -Werror=implicit-function-declaration -Wno-unused-command-line-argument -fsignaling-nans -o CMakeFiles/cmTC_5d76d.dir/simple-main.c.obj -c C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/lib/picolibc/cmake/simple-main.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\33846\\.platformio\\packages\\tool-cmake\\bin\\cmake.exe -E rm -f libcmTC_5d76d.a && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ar.exe qc libcmTC_5d76d.a  CMakeFiles/cmTC_5d76d.dir/simple-main.c.obj && C:\\Users\\33846\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.80201.181220\\bin\\arm-none-eabi-ranlib.exe libcmTC_5d76d.a && cd ."
+        
+      exitCode: 0
+...

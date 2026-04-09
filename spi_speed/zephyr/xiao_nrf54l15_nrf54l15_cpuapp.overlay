@@ -1,0 +1,15 @@
+/*
+ * W25Q128JV SPI Flash Test
+ *
+ * SPI bus (spi00/xiao_spi) is pre-configured in board DTS:
+ *   SCK  = P2.01 (D8)
+ *   MOSI = P2.02 (D10)
+ *   MISO = P2.04 (D9)
+ *
+ * CS is managed via GPIO: P1.05 (D1)
+ */
+
+/* Add missing clocks property for spi00 (nRF54L dtsi omission) */
+&spi00 {
+	clocks = <&hfpll>;
+};

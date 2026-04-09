@@ -1,0 +1,2 @@
+# Load Zephyr board defconfig descriptions.
+osource "C:/Users/33846/.platformio/platforms/Seeed Studio/zephyr/boards/arm/xiao_nrf54l15/Kconfig.defconfig"

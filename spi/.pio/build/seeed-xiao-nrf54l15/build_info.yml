@@ -1,0 +1,49 @@
+cmake:
+  application:
+    configuration-dir: 'H:/nrf54l15/spi/zephyr'
+    source-dir: 'H:/nrf54l15/spi/zephyr'
+  board:
+    name: 'xiao_nrf54l15'
+    path:
+     - 'C:/Users/33846/.platformio/platforms/Seeed Studio/zephyr/boards/arm/xiao_nrf54l15'
+    qualifiers: 'nrf54l15/cpuapp'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/bindings'
+    files:
+     - 'C:/Users/33846/.platformio/platforms/Seeed Studio/zephyr/boards/arm/xiao_nrf54l15/xiao_nrf54l15_nrf54l15_cpuapp.dts'
+     - 'H:/nrf54l15/spi/zephyr/xiao_nrf54l15_nrf54l15_cpuapp.overlay'
+    include-dirs:
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/include'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/include/zephyr'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/common'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/vendor'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/rx'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/x86'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/xtensa'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/sparc'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/riscv'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/posix'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/arm64'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/arm'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts/arc'
+     - 'C:/Users/33846/.platformio/packages/framework-zephyr/dts'
+    user-files:
+     - 'H:/nrf54l15/spi/zephyr/xiao_nrf54l15_nrf54l15_cpuapp.overlay'
+  kconfig:
+    files:
+     - 'C:/Users/33846/.platformio/platforms/Seeed Studio/zephyr/boards/arm/xiao_nrf54l15/xiao_nrf54l15_nrf54l15_cpuapp_defconfig'
+     - 'H:/nrf54l15/spi/zephyr/prj.conf'
+    user-files:
+     - 'H:/nrf54l15/spi/zephyr/prj.conf'
+  toolchain:
+    name: 'gnuarmemb'
+    path: 'C:/Users/33846/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220'
+  vendor-specific:
+    nordic:
+      svdfile: 'C:/Users/33846/.platformio/packages/framework-zephyr/_pio/modules/hal/nordic/nrfx/mdk/nrf54l15_application.svd'
+  zephyr:
+    version: '4.2.1'
+    zephyr-base: 'C:/Users/33846/.platformio/packages/framework-zephyr'
+version: '0.1.0'
