@@ -1,0 +1,15 @@
+/ {
+	zephyr,user {
+		io-channels = <&adc 0>, <&adc 1>, <&adc 2>, <&adc 3>;
+	};
+};
+
+/* Disable PWM20 to release P1.04 (D0) for ADC use */
+&pwm20 {
+	status = "disabled";
+};
+
+&pinctrl {
+	/delete-node/ pwm20_default;
+	/delete-node/ pwm20_sleep;
+};
