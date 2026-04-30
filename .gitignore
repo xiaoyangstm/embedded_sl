@@ -1,0 +1,25 @@
+# Build outputs
+.pio/
+.vscode/
+
+# Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# IDE files
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
