@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BMM150 三轴磁力计 - STM32F103C8T6 + ESP8266 MQTT
 
 基于 STM32F103C8T6 的 BMM150 三轴地磁传感器驱动，通过 ESP8266 WiFi 模块将数据上传到 MQTT 服务器。
