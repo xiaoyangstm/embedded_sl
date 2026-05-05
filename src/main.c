@@ -10,6 +10,7 @@
 #include "mqttkit.h"
 #include "bmm150.h"
 #include "bmm150_platform.h"
+#include "gps.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -17,6 +18,7 @@
 I2C_HandleTypeDef hi2c1;
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
+UART_HandleTypeDef huart3;
 
 /* ESP8266接收缓冲区 */
 unsigned char esp8266_buf[512];
@@ -215,6 +217,10 @@ int main(void)
     I2C1_Init();
     UART1_SendString("I2C1 Init OK\r\n");
 
+    /* 初始化GPS */
+    GPS_Init();
+    UART1_SendString("GPS Init OK\r\n");
+
     /* 扫描I2C总线，查找BMM150 */
     I2C_Scan();
 
@@ -285,6 +291,12 @@ int main(void)
             sprintf(msg_buf, "[%lu] BMM150 read error: %d\r\n", count, status);
             UART1_SendString(msg_buf);
         }
+
+        /* 显示GPS数据 */
+        gps_data_t *gps = GPS_GetData();
+        sprintf(msg_buf, "GPS: lat=%ld, lon=%ld, sats=%d, valid=%d\r\n",
+                gps->latitude, gps->longitude, gps->sat_count, gps->valid);
+        UART1_SendString(msg_buf);
 
         /* 发送到MQTT */
         OneNet_SendData();

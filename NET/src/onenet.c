@@ -3,6 +3,7 @@
 #include "onenet.h"
 #include "mqttkit.h"
 #include "cJSON.h"
+#include "gps.h"
 #include <string.h>
 #include <stdio.h>
 
@@ -60,6 +61,8 @@ unsigned char OneNet_FillBuf(char *buf)
 {
 	char text[100];
 	int32_t mag_value;
+	gps_data_t *gps = GPS_GetData();
+
 	memset(text, 0, sizeof(text));
 	strcpy(buf, "{");
 
@@ -93,7 +96,22 @@ unsigned char OneNet_FillBuf(char *buf)
 		sqrt_val--;
 
 	memset(text, 0, sizeof(text));
-	sprintf(text, "\"magneticFlux\":%ld", sqrt_val);
+	sprintf(text, "\"magneticFlux\":%ld,", sqrt_val);
+	strcat(buf, text);
+
+	/* GPS latitude */
+	memset(text, 0, sizeof(text));
+	sprintf(text, "\"lat\":%ld,", gps->latitude);
+	strcat(buf, text);
+
+	/* GPS longitude */
+	memset(text, 0, sizeof(text));
+	sprintf(text, "\"lon\":%ld,", gps->longitude);
+	strcat(buf, text);
+
+	/* GPS satellites */
+	memset(text, 0, sizeof(text));
+	sprintf(text, "\"sats\":%d", gps->sat_count);
 	strcat(buf, text);
 
 	strcat(buf, "}");
